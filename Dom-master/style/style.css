@@ -1,0 +1,85 @@
+*{
+    background-color: white;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: red;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #73b6f5;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+nav ul li a:hover{
+    color: rgb(132, 148, 202);
+}
+
+header
+{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.Logo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    text-transform: initial;
+}
+.Logo :hover {
+    background-color: rgb(59, 104, 255);
+}
+#Group1{
+    display: flex;
+    margin-left: 150px;
+}
+#Group1 p{
+    margin-left: 20px;
+}
+.container img{
+    width: 300px;
+}
+.container{
+    align-items: center;
+}
+.quantite{
+    width: 45px;
+    height: 35px;
+    text-align: center;
+    border: none;
+}
+.total{
+    width: 45px;
+    height: 35px;
+    border: none;
+    text-align: center;
+}
+.Prixtotal{
+    width: 45px;
+    height: 35px;
+    border: none;
+    text-align: center;
+    margin-right: 0%;
+    
+}
+.liked{
+    color: red;
+    outline-style: hidden;
+}
